@@ -1,0 +1,174 @@
+body
+{
+	margin:0;
+	padding:0;
+	height:100vh;
+	font-family: 'popins',sans-serif;
+	
+}
+.header
+{
+	width : 100%;
+	position: fixed;
+	top: 0;
+	background-color: #ecf0f1;
+	box-sizing: border-box;
+	height: 15%;
+	z-index: 1;
+}
+.header > img
+{
+	height: 80px;
+}
+.header > form
+{
+	display: inline;
+}
+.navbtn
+{
+	padding-top:0px; 
+	position: absolute; 
+	display: inline;
+	left: 69%;
+}
+.navbtn > a > input
+{
+	display: inline-block;
+	width:150px;
+	background-color: black;
+	text-align:center;
+	padding:5px;
+	border-radius:10px;
+	opacity: 0.9;
+	color:white;
+	cursor:pointer;
+	text-transform:uppercase;
+	height: 40px;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 1px;
+	border:2px solid black;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 4px black;
+}
+.navbtn > a >input:hover
+{
+	transition: 0.5s;
+	opacity: 1;
+	background-color: #ed1b24;
+}
+.nav
+{
+	position: fixed;
+	top: 10%;
+	left: 15%;
+	background-color: #ed1b24;
+    border-color: transparent;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+   	box-sizing: border-box;
+	box-shadow: 2px 2px 4px black;
+}
+.heading
+{
+	width : 100%;
+	position: fixed;
+	top: 15%;
+	box-sizing: border-box;
+	background-color: #ed1b24;
+	height: 120px;
+	box-shadow: 0 10px 10px grey;
+	z-index: 1;
+	
+}
+.heading > label
+{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    margin-left: 0px;
+    text-align: center;
+}
+.nav ul
+{
+	display: flex;
+	justify-content:flex-end;
+	max-width:1200px;
+	margin: 0 auto;
+	padding:15px 15px;
+}
+.nav ul li
+{
+		list-style:none;
+		letter-spacing: 1px;
+		position:relative;
+		padding: 10px 10px;
+		margin-right: 2px;
+		//transition:0.5s;
+		box-sizing:border-box;
+}
+.nav ul li:hover
+{
+	background-color: black;
+	color: white;
+}
+.nav ul li a:hover
+{
+	color: white;
+}
+.nav ul li a 
+{
+	text-decoration:none;
+	padding:0 20px;
+	color:#95afc0;	
+	color: #ecf0f1;
+}
+.nav ul li ul
+{
+	position :absolute;
+	top:40px;
+	left:0;
+	padding:0 0px;
+	background:#000;
+	display:block;
+	width:230px;
+	opacity:0;
+	visibility:hidden;
+}
+.nav ul li:hover ul
+{
+	opacity:1;
+	visibility:visible;
+}
+.nav ul li ul li
+{
+	border:1px solid rgba(255,255,255,.2);
+	border-right:none;
+	border-left:none;
+	margin-right: 0px;
+	padding: 10px 0px;
+}
+.nav ul li ul li:hover
+{
+	//background-color: #ff7979;
+	background-color: #c23616;
+}
+.nav ul li ul li a
+{
+	color: #dcdde1;
+}
+
+.nav ul li ul li a:hover
+{
+	color: #dcdde1;
+}
+.active
+{
+	color: white;
+	background-color: black;
+}

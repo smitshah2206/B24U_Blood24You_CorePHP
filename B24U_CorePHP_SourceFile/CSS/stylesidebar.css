@@ -1,0 +1,293 @@
+	body
+		{
+			padding: 0px;
+			margin: 0px;
+		}
+		.rbox
+		{
+			width: 23%;
+			height: 80%;
+			top: 60%;
+			left: 75%;
+			position: absolute;	
+			border-radius:10px;
+			box-sizing: border-box;
+			box-shadow: 2px 5px 4px black;
+			margin-bottom: 50px;
+		}
+		
+
+		.rlabel
+		{
+			width: 100%;
+			position: relative;
+			height: 10%;
+			background-color:black;
+			color: white;	
+			border-bottom: 2px solid white;
+			border-top-left-radius: 10px;
+		}
+		.rlabel > ul
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			right: 0px;
+			padding-left: 0px;
+			box-sizing: border-box;
+			box-shadow: 2px 2px 4px black;
+		}
+		.rlabel > ul >li
+		{
+			position: absolute;
+			text-decoration: none;
+			display: inline-block;
+			font-size:15px;
+			border-left:1px solid white; 
+			height: 75%;
+			text-align: center;
+			width: 50%;
+			padding-top: 15px;
+			letter-spacing: 1px;
+			
+		}
+		.rlabel > ul >li:last-child
+		{
+			left: 50%;
+		}
+		.rlabel > ul >li:hover
+		{
+			background-color: #ed1b24;
+			transition: 0.5s;
+			opacity: 1;
+		}
+
+
+		.rlist
+		{
+			position: relative;
+			height: 90%;
+			width: 100%;
+			overflow: hidden;
+			display: block;
+			border-radius: 10px;
+		}
+		.rlistbox
+		{
+			position: relative;
+			height: 20%;
+			width: 100%;
+			border-bottom: 2px solid white;
+			transform: translate3d(0, 0, 0);
+			transition: 5s;
+			animation-name: example;
+			animation-duration: 8s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes example
+		{
+			100% 
+			{ 
+    			transform: translateY(-100%);  
+ 			}
+		}
+		.rdate
+		{
+			width:23%;
+			height: 100%;
+			position: absolute;
+			background-color:black;
+			color: white;
+			text-align: center;
+		}
+		.rdate > p
+		{
+			margin-top: 5px;
+		}
+		.rdetails
+		{
+			width: 54%;
+			height: 100%;
+			position: absolute;
+			background-color: #09203F;
+			left: 23%;
+		}
+		.rdetails >ul
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			left: 0px;
+			margin-bottom: 0px;
+			right: 0px;
+			padding-left: 0px;
+		}
+		.rdetails > ul >li
+		{
+			position: relative;
+			text-decoration: none;
+			display: block; 
+			height: 33%;
+			text-align: center;
+			width: 100%;
+		}
+		.rdetails > ul >li > i
+		{
+			text-align: left;
+			position: absolute;
+			left: 5px;
+			right: 0px;
+			margin-top:2px;
+			color: #F8EFBA;
+			font-size: 20px;
+		}
+		.rdetails > ul >li>p
+		{
+			position: absolute;
+			text-decoration: none;
+			display: inline;
+			font-size: 12px; 
+			height: 50%;
+			text-align: left;
+			width: 100%;
+			margin-top: 5px;
+			padding-left: 10px;
+			left: 20px;
+			right: 0px;
+			color: #f1f2f6;
+			letter-spacing: 1px;
+		}
+		.rgroup
+		{
+			width: 23%;
+			height: 100%;
+			position: absolute;
+			background-color: black;
+			left:77%;
+			color: white;
+			text-align: center;
+		}
+		.rgroup > p
+		{
+			margin-top: 0px;
+			margin-bottom:	0px; 
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-size: 25px;
+			border-bottom: 2px solid white;
+		}
+		.rgroup>i
+		{
+			left: 0px;
+			right: 0px;
+			padding-top: 10px;
+		}
+		
+
+
+
+		.dlist
+		{
+			position: relative;
+			height: 90%;
+			background-color: blue;
+			width: 100%;
+			overflow: hidden;
+			display: none;
+		}
+		.dlistbox
+		{
+			position: relative;
+			height: 20%;
+			width: 100%;
+			border-bottom: 2px solid white;
+			transform: translate3d(0, 0, 0);
+			transition: 5s;
+			animation-name: example;
+			animation-duration: 8s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes example
+		{
+			100% 
+			{ 
+    			transform: translateY(-100%);  
+ 			}
+		}
+		.ddetails
+		{
+			width: 70%;
+			height: 100%;
+			position: absolute;
+			background-color: #09203F;
+		}
+		.ddetails >ul
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			margin-top: 0px;
+			left: 0px;
+			margin-bottom: 0px;
+			right: 0px;
+			padding-left: 0px;
+		}
+		.ddetails > ul >li
+		{
+			position: relative;
+			text-decoration: none;
+			display: block; 
+			height: 33%;
+			text-align: center;
+			width: 100%;
+			margin-top: 2px;
+		}
+		.ddetails > ul >li > i
+		{
+			text-align: left;
+			position: absolute;
+			left: 14px;
+			right: 0px;
+			margin-top:4px;
+			font-size: 15px;
+			color: #F8EFBA;
+		}
+		.ddetails > ul >li>p
+		{
+			position: absolute;
+			text-decoration: none;
+			display: inline;
+			font-size: 14px; 
+			height: 50%;
+			text-align: left;
+			width: 100%;
+			margin-top: 5px;
+			padding-left: 30px;
+			left: 20px;
+			right: 0px;
+			color: #f1f2f6;
+			letter-spacing: 1px;
+		}
+		.dgroup
+		{
+			width: 30%;
+			height: 100%;
+			position: absolute;
+			background-color: black;
+			left:70%;
+			color: white;
+			text-align: center;
+		}
+		.dgroup > p
+		{
+			margin-top: 0px;
+			margin-bottom:	0px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			font-size: 25px;
+		}
